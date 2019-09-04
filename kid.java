@@ -1,7 +1,7 @@
 import java.util.concurrent.Semaphore;
 
 public class kid extends Thread {
-
+    private static int cesto, k;
     private boolean tem_bola;
     private int time_play;
     private int time_quiet;
@@ -164,8 +164,6 @@ public class kid extends Thread {
             volta_lugar();
         }
     }
-
-    public static int cesto, k;
 
     public static void main(String args[]) {
 
